@@ -1,0 +1,9 @@
+[Unit]
+Description=Force an IDE drive to immediately enter the low power consumption standby mode, usually causing it to spin down
+
+[Timer]
+OnBootSec=15minutes
+OnUnitActiveSec=2hours 
+
+[Install]
+WantedBy=timers.target

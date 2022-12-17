@@ -1,0 +1,6 @@
+[Unit]
+Description=Force an IDE drive to immediately enter the low power consumption standby mode, usually causing it to spin down
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/disk-safe.sh sda sdc
