@@ -1,0 +1,12 @@
+systemctl status disk-safe.service
+
+systemctl start disk-safe.timer
+
+systemctl enable disk-safe.timer
+
+hdparm -C "/dev/sda"
+
+cd /etc/systemd/system/
+
+cd /usr/local/bin/
+

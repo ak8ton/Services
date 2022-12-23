@@ -3,4 +3,4 @@ Description=Force an IDE drive to immediately enter the low power consumption st
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/disk-safe.sh sda sdc
+ExecStart=/usr/local/bin/disk-safe.sh sda sdb
